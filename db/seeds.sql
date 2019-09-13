@@ -1,2 +1,2 @@
-insert into burgers (burger_name) values ('Cheeseburger'), ('Bacon Cheeseburger'), ('Double Cheeseburger'), ('Turkey Burger');
+insert into burgers (burger_name, devour) values ('Cheeseburger', false), ('Bacon Cheeseburger', false), ('Double Cheeseburger', false), ('Turkey Burger',false);
 select * from burgers;
